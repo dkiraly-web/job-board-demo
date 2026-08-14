@@ -41,9 +41,12 @@ export default function RootLayout({
               </span>
               <span className="text-sm font-medium text-zinc-500">Bosch Group listings</span>
             </Link>
-            <nav className="text-sm">
+            <nav className="flex gap-4 text-sm">
               <Link href="/" className="text-zinc-600 hover:text-zinc-900">
                 Browse jobs
+              </Link>
+              <Link href="/cv-match" className="text-zinc-600 hover:text-zinc-900">
+                Match my CV
               </Link>
             </nav>
           </div>

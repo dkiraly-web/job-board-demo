@@ -43,3 +43,6 @@ next-env.d.ts
 # local Claude Code session config / dev-machine workarounds
 /.claude
 /run-dev.cmd
+
+.vercel
+.env*
